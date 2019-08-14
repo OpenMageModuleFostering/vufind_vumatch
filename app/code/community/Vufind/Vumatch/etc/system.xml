@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <vumatch translate="label" module="vumatch">
+            <label>Vumatch AI Recommendations</label>
+            <sort_order>100</sort_order>
+        </vumatch>
+    </tabs>
+    <sections>
+        <vumatch translate="label" module="vumatch">
+            <label>Vumatch</label>
+            <tab>vumatch</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <account translate="label" module="vumatch">
+                    <label>Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <expanded>1</expanded>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment><![CDATA[Vumatch visual recommendations, check <a href="http://vufind.co/vumatch-demo.html" target="_blank">live demo</a><br><br>]]></comment>
+ 
+                    <fields>
+                        <active>
+                            <label>Enable</label>
+                            <comment><![CDATA[Set to Yes to activate Vumatch visual recommendations module]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <api_key translate="label,comment">
+                            <label>API Key*</label>
+                            <comment><![CDATA[Your Vumatch API Key]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_key>
+                        <api_token translate="label,comment">
+                            <label>API Token*</label>
+                            <comment><![CDATA[Your Vumatch API Token]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_token>
+                        <customer_id translate="label,comment">
+                            <label>Customer ID*</label>
+                            <comment><![CDATA[Your Vufind Customer ID]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </customer_id>
+                        <sync_catalog>
+                            <label>Sync catalog</label>
+                            <comment><![CDATA[Sync catalog with Vufind. Required to serve recommendations]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sync_catalog>
+                    </fields>
+
+                </account>
+            </groups>
+        </vumatch>
+    </sections>
+</config>
+

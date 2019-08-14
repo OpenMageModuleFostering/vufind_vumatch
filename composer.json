@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Vufind_Vumatch",
+    "type": "magento-module",
+    "license": "Open-Software-License",
+    "homepage": "",
+    "description": "Inspire shoppers with visual & behavioral recommendations & deliver 15% conversion lift",
+    "authors": [
+    {
+        "name": "DeepVu",
+        "email": "mr@deepvu.co"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

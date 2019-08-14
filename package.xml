@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>Vufind_Vumatch</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Inspire shoppers with visual &amp; behavioral recommendations &amp; deliver 15% conversion lift</summary>
+    <description>&lt;h1&gt;vuMatch Visual Product Recommendations&lt;/h1&gt;&#xD;
+&#xD;
+&lt;strong&gt;DeepVu&#x2019;s vuMatch delivers visual recommendations that get smarter with usage to deliver the maximum conversion lift while insipring shoppers to find and purchase products they love.&lt;/strong&gt; &#xD;
+&#xD;
+&lt;h2&gt;Deep Learning for AI Commerce&lt;/h2&gt;&#xD;
+DeepVu&#x2019;s deep-learning engine analyses your catalog's visual features, and your shoppers reactions to the recommendations to deliver the smartest recommendations based on visual similarity and insights on what&#x2019;s resonating with your shoppers. The result: an AI-commerce user experience for your shoppers and maximum conversion lift for the retailer. &#xD;
+&#xD;
+&lt;h2&gt;Conversion Lift&lt;/h2&gt;&#xD;
+We commit to delivering more than 15%  conversion lift quarterly or you can cancel with no further obligation!</description>
+    <notes>Initial stable release</notes>
+    <authors><author><name>DeepVu</name><user>deepvu</user><email>mr@deepvu.co</email></author></authors>
+    <date>2015-10-31</date>
+    <time>21:03:03</time>
+    <contents><target name="magecommunity"><dir name="Vufind"><dir name="Vumatch"><dir name="Block"><file name="Widget.php" hash="ae638e5a1feaf9c5bf71da4aa835bfb1"/></dir><dir name="Helper"><file name="Data.php" hash="e4a6f0dcc3111b3c4f7c65eefc5fe0d8"/></dir><dir name="Model"><file name="Abstract.php" hash="110211094d1bee58864e6ee4a4a723b3"/><file name="Api.php" hash="8694f4e7563477caf292994766f84807"/><file name="Observer.php" hash="44e0687341f52258feae2809234b286e"/></dir><dir name="etc"><file name="config.xml" hash="e729cc2c4deb09a9217a23cdf0cd5a7d"/><file name="system.xml" hash="8634402431fbd27f0382002adf151c93"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Vufind_Vumatch.xml" hash="40f389710e714394c547090f213e5044"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

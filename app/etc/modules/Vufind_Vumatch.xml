@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Vufind_Vumatch>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Vufind_Vumatch>
+	</modules>
+</config>
