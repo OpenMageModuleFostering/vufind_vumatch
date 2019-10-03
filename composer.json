@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Vufind_Vumatch",
+    "name": "openmage-module-fostering\/vufind_vumatch",
     "type": "magento-module",
-    "license": "Open-Software-License",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Inspire shoppers with visual and behavioral recommendations and deliver over 15% conversion lift",
     "authors": [
